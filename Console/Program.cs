@@ -32,5 +32,5 @@ AIAgent agent = new AzureOpenAIClient(
      .CreateAIAgent(instructions: "You are a helpful assistant which answer if the season is.", tools: [weatherAgent.AsAIFunction()]);
 
 
-Console.WriteLine(await agent.RunAsync("What is the season in Amsterdam now according that you know the weather? basing the date today is 2024-06-15."));
+Console.WriteLine(await agent.RunAsync("What  is the season in Amsterdam now according that you know the weather? basing the date today is 2024-06-15."));
 
